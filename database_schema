@@ -16,7 +16,7 @@ Dataset system
 }
 
 {
-    "class": "string",
+    "class": "ENUM",
     "avgWorkload": "number",
 }
 
@@ -24,8 +24,8 @@ Dataset system
 Input system
 
 {
-    "execution_id": "string",
-    "projectNumber": "string",
+    "executionId": "string",
+    "projectFileName": "string",
     "uploadedAt": "2024-01-20T14:00:00Z",
     "parsed_data": {
         "name": "string",
