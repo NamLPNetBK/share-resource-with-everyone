@@ -1,0 +1,39 @@
+-----
+Dataset system
+{
+    "projectNumber": "string",
+    "totalWorkload": "number",
+    "totalScreen": "number",
+    "totalApi": "number"
+}
+
+{
+    "projectNumber": "string",
+    "name": "string",
+    "category": "ENUM",
+    "difficulty": "ENUM",
+    "workload": "number",
+}
+
+{
+    "class": "string",
+    "avgWorkload": "number",
+}
+
+-----
+Input system
+
+{
+    "execution_id": "string",
+    "projectNumber": "string",
+    "uploadedAt": "2024-01-20T14:00:00Z",
+    "parsed_data": {
+        "name": "string",
+        "category": "ENUM",
+        "difficulty": "ENUM",
+        "workload": "number",
+        "differenceFromAverage": "number",
+        "isValidEstimate": "boolean"
+    },
+    "ai_evaluation": "string"
+}
