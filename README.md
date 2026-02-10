@@ -1,0 +1,1 @@
+# share-resource-with-everyone
