@@ -1,5 +1,7 @@
 -----
 Dataset system
+
+# 25E005-TeamB-ProjectList
 {
     "projectNumber": "string",
     "totalWorkload": "number",
@@ -7,14 +9,16 @@ Dataset system
     "totalApi": "number"
 }
 
+# 25E005-TeamB-DevelopmentWorkload
 {
     "projectNumber": "string",
-    "name": "string",
+    "name": "string", # 画面・API名
     "category": "ENUM",
     "difficulty": "ENUM",
     "workload": "number",
 }
 
+＃ 25E005-TeamB-WorkloadStandards
 {
     "class": "ENUM",
     "avgWorkload": "number",
@@ -22,7 +26,7 @@ Dataset system
 
 -----
 Input system
-
+# 25E005-TeamB-EstimatedResult
 {
     "executionId": "string",
     "projectFileName": "string",
@@ -37,3 +41,4 @@ Input system
     },
     "ai_evaluation": "string"
 }
+
