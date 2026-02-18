@@ -3,25 +3,25 @@ Dataset system
 
 # 25E005-TeamB-ProjectList
 {
-    "projectNumber": "string",
-    "totalWorkload": "number",
-    "totalScreen": "number",
-    "totalApi": "number"
+    "projectNumber": "string", # 案件番号
+    "totalWorkload": "number", # 総工数
+    "totalScreen": "number",　# 画面総数
+    "totalApi": "number",　# API総数
 }
 
 # 25E005-TeamB-DevelopmentWorkload
 {
-    "projectNumber": "string",
-    "name": "string", # 画面・API名
-    "category": "ENUM",
-    "difficulty": "ENUM",
-    "workload": "number",
+    "projectNumber": "string", # 案件番号
+    "name": "string",　# 画面・API名
+    "category": "ENUM",　# 区分/分類
+    "difficulty": "ENUM",　# 難易度
+    "workload": "number",　# 工数
 }
 
 ＃ 25E005-TeamB-WorkloadStandards
 {
     "class": "ENUM",
-    "avgWorkload": "number",
+    "avgWorkload": "number", # 平均工数
 }
 
 -----
@@ -32,13 +32,14 @@ Input system
     "projectFileName": "string",
     "uploadedAt": "2024-01-20T14:00:00Z",
     "parsed_data": {
-        "name": "string",
-        "category": "ENUM",
-        "difficulty": "ENUM",
-        "workload": "number",
-        "differenceFromAverage": "number",
+        "name": "string", # 画面・API名
+        "category": "ENUM", # 区分/分類
+        "difficulty": "ENUM", # 難易度
+        "workload": "number", # 工数
+        "differenceFromAverage": "number", # 平均との差
         "isValidEstimate": "boolean"
     },
     "ai_evaluation": "string"
 }
+
 
