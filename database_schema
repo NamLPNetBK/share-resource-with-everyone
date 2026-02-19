@@ -39,10 +39,10 @@ Input system
         "difficulty": "ENUM", # 難易度
         "workload": "number", # 工数
         "differenceFromAverage": "number", # 平均との差
-        "isValidEstimate": "boolean"
     },
     "ai_evaluation": "string"
 }
+
 
 
 
