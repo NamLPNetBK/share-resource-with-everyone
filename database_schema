@@ -3,6 +3,7 @@ Dataset system
 
 # 25E005-TeamB-ProjectList
 {
+    "id": "string",
     "projectNumber": "string", # 案件番号
     "totalWorkload": "number", # 総工数
     "totalScreen": "number",　# 画面総数
@@ -11,6 +12,7 @@ Dataset system
 
 # 25E005-TeamB-DevelopmentWorkload
 {
+    "id": "string",
     "projectNumber": "string", # 案件番号
     "name": "string",　# 画面・API名
     "category": "ENUM",　# 区分/分類
@@ -28,7 +30,7 @@ Dataset system
 Input system
 # 25E005-TeamB-EstimatedResult
 {
-    "executionId": "string",
+    "id": "string",
     "projectFileName": "string",
     "uploadedAt": "2024-01-20T14:00:00Z",
     "parsed_data": {
@@ -41,5 +43,6 @@ Input system
     },
     "ai_evaluation": "string"
 }
+
 
 
