@@ -38,10 +38,12 @@ Input system
         "category": "ENUM", # 区分/分類
         "difficulty": "ENUM", # 難易度
         "workload": "number", # 工数
+        "avgWorkload": "number", # 平均工数
         "differenceFromAverage": "number", # 平均との差
     }],
     "aiEvaluation": "string"
 }
+
 
 
 
