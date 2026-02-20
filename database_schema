@@ -33,15 +33,16 @@ Input system
     "id": "string",
     "projectFileName": "string",
     "uploadedAt": "2024-01-20T14:00:00Z",
-    "parsed_data": {
+    "parsedData": {
         "name": "string", # 画面・API名
         "category": "ENUM", # 区分/分類
         "difficulty": "ENUM", # 難易度
         "workload": "number", # 工数
         "differenceFromAverage": "number", # 平均との差
     },
-    "ai_evaluation": "string"
+    "aiEvaluation": "string"
 }
+
 
 
 
