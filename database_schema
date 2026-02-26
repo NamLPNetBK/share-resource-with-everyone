@@ -24,6 +24,7 @@ Dataset system
 {
     "class": "ENUM",
     "avgWorkload": "number", # 平均工数
+    "diffRate": "number"
 }
 
 -----
@@ -43,6 +44,7 @@ Input system
     }],
     "aiEvaluation": "string"
 }
+
 
 
 
