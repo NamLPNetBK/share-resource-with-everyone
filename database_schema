@@ -34,6 +34,10 @@ Input system
     "id": "string",
     "projectFileName": "string",
     "uploadedAt": "2024-01-20T14:00:00Z",
+    "avgWorkloads": [{
+        "class": "string", # 画面・API名
+        "avgWorkload": "number"
+    }]
     "parsedData": [{
         "name": "string", # 画面・API名
         "category": "ENUM", # 区分/分類
@@ -44,6 +48,7 @@ Input system
     }],
     "aiEvaluation": "string"
 }
+
 
 
 
