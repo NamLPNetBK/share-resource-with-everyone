@@ -38,6 +38,7 @@ POST /file/presigned-upload-url
 ```json
 {
   "fileName": "file1.xlsx"
+  "prefix":"B/InputProject/"
 }
 ```
 
@@ -46,6 +47,7 @@ POST /file/presigned-upload-url
 | Field    | Type   | Required | Description             |
 | -------- | ------ | -------- | ----------------------- |
 | fileName | string | Yes      | Tên file gốc cần upload |
+| prefix | string | Yes      | B/InputProject/ hoặc B/Document/ |
 
 ---
 
@@ -204,4 +206,5 @@ POST /file/process-result
 ```
 
 ---
+
 
