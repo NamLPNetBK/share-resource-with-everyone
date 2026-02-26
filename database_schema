@@ -31,7 +31,6 @@ Dataset system
 Input system
 # 25E005-TeamB-EstimatedResult
 {
-    "id": "string",
     "projectFileName": "string",
     "uploadedAt": "2024-01-20T14:00:00Z",
     "avgWorkloads": [{
@@ -48,6 +47,7 @@ Input system
     }],
     "aiEvaluation": "string"
 }
+
 
 
 
