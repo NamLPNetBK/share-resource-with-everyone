@@ -3,8 +3,7 @@ Dataset system
 
 # 25E005-TeamB-ProjectList
 {
-    "id": "string",
-    "projectNumber": "string", # 案件番号
+    "projectFileName": "string", # 案件番号
     "totalWorkload": "number", # 総工数
     "totalScreen": "number",　# 画面総数
     "totalApi": "number",　# API総数
@@ -12,8 +11,7 @@ Dataset system
 
 # 25E005-TeamB-DevelopmentWorkload
 {
-    "id": "string",
-    "projectNumber": "string", # 案件番号
+    "projectFileName": "string", # 案件番号
     "name": "string",　# 画面・API名
     "category": "ENUM",　# 区分/分類
     "difficulty": "ENUM",　# 難易度
@@ -47,6 +45,7 @@ Input system
     }],
     "aiEvaluation": "string"
 }
+
 
 
 
