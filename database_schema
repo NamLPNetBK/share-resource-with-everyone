@@ -11,6 +11,7 @@ Dataset system
 
 # 25E005-TeamB-DevelopmentWorkload
 {
+    "id": "string",
     "projectFileName": "string", # 案件番号
     "name": "string",　# 画面・API名
     "category": "ENUM",　# 区分/分類
@@ -45,6 +46,7 @@ Input system
     }],
     "aiEvaluation": "string"
 }
+
 
 
 
